@@ -6,30 +6,74 @@
         <link rel="stylesheet" type="text/css" href="style_header.css">
     </head>
     <body>
-        <div>
-            <header id="header_alto">
-                <ul>
-                    <li><a href="#">aiuto</a></li>
-                    <li><a href="#">trova un negozio</a></li>
-                    <li><a href="#">accedi</a></li>
-                </ul>
-            </header>
-        </div>
+        <header id="header_alto">
+            <ul>
+                <li><a href="#">aiuto</a></li>
+                <li><a href="#">trova un negozio</a></li>
+                <li><a href="#">accedi</a></li>
+            </ul>
+        </header>
+    
         <div id="box1" class="box">
             <header id="header_basso">
-                <a href="index.php"><img src="logo.png"></a>
+                <a href="index.php"><img src="logo.png" alt="Logo"></a>
+    
                 <nav class="navigation">
-                    <a href="#">Novità</a>
-                    <a href="#">Donna</a>
-                    <a href="#">Uomo</a>
-                    <a href="#">Bambini</a>
-                    <a href="#">Outlet</a>
+                    <div class="dropdown">
+                        <a href="#">Novità</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">T-shirt</a></li>
+                            <li><a href="#">Pantaloni</a></li>
+                            <li><a href="#">Giacche</a></li>
+                            <li><a href="#">Accessori</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="dropdown">
+                        <a href="#">Donna</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Abbigliamento</a></li>
+                            <li><a href="#">Scarpe</a></li>
+                            <li><a href="#">Borse</a></li>
+                            <li><a href="#">Accessori</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="dropdown">
+                        <a href="#">Uomo</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">T-shirt</a></li>
+                            <li><a href="#">Pantaloni</a></li>
+                            <li><a href="#">Giacche</a></li>
+                            <li><a href="#">Accessori</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="dropdown">
+                        <a href="#">Bambini</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">T-shirt</a></li>
+                            <li><a href="#">Pantaloni</a></li>
+                            <li><a href="#">Giacche</a></li>
+                            <li><a href="#">Accessori</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="dropdown">
+                        <a href="#">Outlet</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Abbigliamento</a></li>
+                            <li><a href="#">Scarpe</a></li>
+                            <li><a href="#">Borse</a></li>
+                            <li><a href="#">Accessori</a></li>
+                        </ul>
+                    </div>
                 </nav>
+    
                 <input type="text" placeholder="Cerca" id="barra_di_ricerca">
+    
                 <a href="#" id="like">
-                    <span class="like_wrapper">
-                        <img src="like.png" alt="Like" class="like_icon">
-                    </span>
+                    <img src="like.png" alt="Like">
                 </a>
             </header>
         </div>
